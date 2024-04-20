@@ -1,0 +1,275 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../assets/bckground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* 热门社团布局 */
+.col_1_of_2 {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.span_1_of_2 {
+    width: 23.8%;
+}
+
+
+/* .mytable>>>.el-table__row>td {
+    border: none;
+} */
+
+
+/*  footer里‘关于网站’去下划线  */
+a {
+    text-decoration: none;
+}
+
+/* 有用 */
+.clear {
+    clear: both;
+}
+
+/* img {
+    max-width: 100%;
+} */
+
+/* 有用  背景颜色 */
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    background-image: linear-gradient(to bottom right, #b1d954, #6ce6d8);
+} */
+
+/* 有用  定位热门社团的位置 */
+.wrap {
+    width: 80%;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+/* 有用  头部框框 */
+.header {
+    /* background:url(../images/pattern.gif); */
+    /* background-color: rgb(236, 242, 242, 0.7); */
+    background-color: rgba(136, 117, 31, 0.2);
+    /* background-color: #000; */
+}
+
+
+/* 有用 */
+/*--cssmenu--*/
+.cssmenu {
+    padding-bottom: 0%;
+    margin-bottom: 5%;
+}
+
+.cssmenu h1 {
+    /* color: whitesmoke; */
+    /* color: rgba(198, 105, 23, 0.791); */
+    color: rgba(19, 65, 48, 0.462);
+    /* font-family: '宋体'; */
+    font-family: 'STCaiyun';
+    font-size: 4.3em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 38.5px;
+}
+
+.cssmenu .logo0 {
+    position: relative;
+    /*顶部绿色*/
+    top: 32px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+
+
+/*--有用  footer--*/
+.col_1_of_4 {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.span_1_of_4 {
+    width: 23.8%;
+}
+
+.col_1_of_4:first-child {
+    margin-left: 0;
+}
+
+ul.first li {
+    /* background: url(../images/marker.png) no-repeat 0 8px; */
+    line-height: 0.8em;
+    padding: 0 0 15px 18px;
+}
+
+ul.first li a {
+    font-size: 1.2em;
+    font-family: '华文楷体';
+    color: #575454;
+    line-height: 1.5em;
+    /*友情链接下面的 */
+    /* font-family: 'ambleregular'; */
+}
+
+/* 关于我们 footer */
+.span_1_of_4 h3 {
+    margin-bottom: 20px;
+    /* font-family: '华文楷体'; */
+    font-family: 'STCaiyun';
+    font-size: 1.6em;
+    line-height: 1.2;
+    margin-top: 0px;
+    padding-left: 10px;
+    letter-spacing: -1px;
+    color: #575454;
+    /* color: rgba(230, 162, 24, 0.7); */
+}
+
+ul.last li span {
+    font-size: 1.1em;
+    color: #A0A0A0;
+    cursor: pointer;
+    margin: 10px 0;
+    display: block;
+    font-family: 'ambleregular';
+}
+
+.follow_icon li {
+    float: left;
+    margin-right: 20px;
+}
+
+.follow_icon li a img {
+    vertical-align: middle;
+}
+
+
+/* footer  有用 */
+.footer-top {
+    padding: 4% 0 2%;
+    border-bottom: 1px solid #363636;
+}
+
+.footer {
+    background-color: rgba(136, 117, 31, 0.2);
+}
+
+
+
+/* 有用 使活动预告和热门社团在同一行 */
+/* 热门社团 */
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 6%;
+}
+
+/* 活动预告标题与上下方位置 */
+.col2 {
+    display: block;
+    float: left;
+    /* margin  上 右 下 左 */
+    margin: 6.7% 0 1% 6%;
+}
+
+.col h3 {
+    color: #1d3611cb;
+    font-family: 'STCaiyun';
+    font-size: 1.8em;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    text-transform: uppercase;
+}
+
+.co2 h3 {
+    color: #1d3611cb;
+    font-family: 'STCaiyun';
+    font-size: 1.8em;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    text-transform: uppercase;
+}
+
+
+/* 有用 活动预告    ambleregular*/
+.span_1_of_about1 h3 {
+    color: #000;
+    font-family: 'STCaiyun';
+    font-size: 1.8em;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    text-transform: uppercase;
+}
+
+
+
+
+/* 有用 */
+/* 主页活动报名与上方间隙 */
+.about-bottom {
+    padding-top: 5%;
+    /* 主页活动报名与上方间隙 */
+}
+
+
+/* 有用 活动报名的相关设置 */
+.about-topgrid1 {
+    width: 420px;
+    float: left;
+    margin-right: 2%;
+}
+
+.about-topgrid1 h3 {
+    color: rgb(197, 119, 24);
+    font-family: 'STCaiyun';
+    font-size: 1.8em;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+
+
+
+
+/* 有用  社团招新专栏 */
+.about-histore {
+    float: left;
+    width: 730px;
+    overflow: hidden;
+}
+
+.about-histore h3 {
+    color: #1d3611cb
+        /*rgb(197, 119, 24)*/
+    ;
+    font-family: 'STCaiyun';
+    font-size: 1.8em;
+    margin-bottom: 2%;
+    margin-right: 25%;
+    /* text-align: center; */
+    text-transform: uppercase;
+}
+
+
+/* 有用  热门社团的与四周间距 */
+.about {
+    padding: 8% 0 3%;
+}
